@@ -2,7 +2,7 @@
 
 ```json
 {
-    "@context": ["https://www.w3.org/2018/credentials/v1"],
+    "@context": ["https://www.w3.org/2023/credentials/v1"],
     "type": ["VerifiableCredential", "SPID"],
     "credentialSubject": {
         "accountId": "1234567890",

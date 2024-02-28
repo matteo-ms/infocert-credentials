@@ -17,7 +17,7 @@ spec:
         spec:
             containers:
                 - name: vc-repository
-                  image: waltid/vc-repository:latest
+                  image: matteoms/vc-repository:latest
                   ports:
                       - containerPort: 3000
                         name: http-api
