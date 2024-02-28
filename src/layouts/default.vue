@@ -1,14 +1,14 @@
 <template>
   <div>
-    <div class="fixed p-4 bg-slate-900 bg-opacity-97 w-full z-20 border-b-1 border-slate-700">
+    <div class="fixed p-4 bg-primary-900 bg-opacity-97 w-full z-20 border-b-1 border-slate-700">
       <div class="flex flex-row justify-between gap-5">
         <div class="flex flex-row gap-4 items-center">
           <div class="flex h-5 shrink-0 items-center">
-            <img alt="walt.id" class="h-7 w-auto" src="/logo.png" />
+            <img alt="infocert.digital" class="h-12 w-auto" src="/logo_neg.png" />
           </div>
           <div class="flex flex-col">
-            <span class="text-gray-50 font-bold text-2xl">walt.id
-              <span class="text-primary-400 text-1xl">CREDENTIALS</span></span>
+            <span class="text-gray-50 font-bold text-2xl">Credentials
+              <span class="text-primary-400 text-1xl">CATALOGUE</span></span>
           </div>
         </div>
         <div class="flex flex-row">
@@ -21,7 +21,7 @@
           </nav>
           <div class="border-l border-slate-800 mx-5"></div>
           <div class="flex flex-row">
-            <NuxtLink href="https://github.com/walt-id" target="_blank">GitHub</NuxtLink>
+            <NuxtLink href="https://github.com/dizme" target="_blank">GitHub</NuxtLink>
           </div>
         </div>
       </div>
@@ -33,7 +33,7 @@
     </div>
     <!--        Content Below Header -->
     <div
-      class="relative w-full flex flex-col sm:flex-row flex-wrap sm:flex-nowrap py-4 flex-grow max-w-[1500px] mx-auto min-h-screen">
+      class="relative w-full bg-primary-900 flex flex-col sm:flex-row flex-wrap sm:flex-nowrap py-4 flex-grow max-w-[1500px] mx-auto min-h-screen">
       <!-- Desktop Nav Left -->
       <div class="relative top-22 hidden lg:block relative w-fixed lg:w-3/12 flex-shrink flex-grow-0">
         <div class="fixed w-3/12 max-w-[370px] h-full">
@@ -51,13 +51,13 @@
             <div v-if="data" class="text-sm md:text-md">
               <div :class="!data[0] ? 'justify-right' : 'justify-between'" class="flex mt-7">
                 <NuxtLink v-if="data[0]" :to="data[0]._path"
-                  class="flex items-center gap-2 font-bold hover:text-primary-300 text-left">
+                class="flex items-center gap-2 font-bold hover:text-secondary-light text-left">
                   <ChevronLeftIcon class="h-4" />
                   {{ data[0].title }}
                 </NuxtLink>
 
                 <NuxtLink v-if="data[1]" :to="data[1]._path"
-                  class="flex items-center gap-2 font-bold hover:text-primary-300 text-right">
+                class="flex items-center gap-2 font-bold hover:text-secondary-light text-right">
                   {{ data[1].title }}
                   <ChevronRightIcon class="h-4" />
                 </NuxtLink>
@@ -74,9 +74,9 @@
         </div>
       </div>
       <!--        Mobile Menu-->
-      <div v-if="showMobileMenu" class="absolute fixed top-0 w-full left-0 z-200 bg-slate-700 h-full bg-opacity-95"
+      <div v-if="showMobileMenu" class="absolute fixed top-0 w-full left-0 z-200 bg-primary-700 h-full bg-opacity-95"
         @click="toggleMobileMenu">
-        <div class="relative bg-slate-900 w-8/12 h-full" @click.stop="">
+        <div class="relative bg-primary-900 w-8/12 h-full" @click.stop="">
           <div class="absolute top-3 right-3 cursor-pointer">
             <XMarkIcon class="h-5" @click="toggleMobileMenu" />
           </div>
@@ -159,15 +159,15 @@ function toggleMobileMenu() {
 const headerNavigation: { title: string; url: string }[] = [
   {
     title: "Homepage",
-    url: "https://walt.id",
+    url: "https://infocert.digital",
   },
   {
     title: "Community",
-    url: "https://walt.id/discord"
+    url: "https://dizme.io"
   },
   {
     title: "Docs",
-    url: "https://docs.oss.walt.id/",
+    url: "http://142.93.173.112:7001/swagger/index.html",
   },
 ];
 </script>

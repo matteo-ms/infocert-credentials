@@ -48,10 +48,10 @@ metadata:
 spec:
     tls:
         - hosts:
-              - credentials.walt.id
+              - infocert-credentials.vercel.app
           secretName: credentials-tls-secret
     rules:
-        - host: credentials.walt.id
+        - host: infocert-credentials.vercel.app
           http:
               paths:
                   - path: /

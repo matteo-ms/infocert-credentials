@@ -7,9 +7,9 @@ GET /api/list
 ```
 
 ```http
-GET /api/vc/OpenBadgeCredential
+GET /api/vc/PID
 ```
 
 ```http
-GET /api/mapping/OpenBadgeCredential
+GET /api/mapping/FinancialCreditScoring
 ```

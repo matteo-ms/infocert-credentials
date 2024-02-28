@@ -1,8 +1,8 @@
-# walt.id Credentials
+# infocert.it Credentials
 
 A collection of W3C Verifiable Credential conform data schemas
 
-Hosted under: https://credentials.walt.id/
+Hosted under: https://infocert-credentials.vercel.app
 
 # Setup
 ```shell

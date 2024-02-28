@@ -6,16 +6,16 @@ export default defineConfig({
     theme: {
         colors: {
             primary: {
-                50: "#E6F6FF",
-                100: "#BAE3FF",
-                200: "#7CC4FA",
-                300: "#47A3F3",
-                400: "#0573F0",
-                500: "#0A63C9",
-                600: "#0552B5",
-                700: "#03449E",
-                800: "#01337D",
-                900: "#002159"
+                50: "#E6F6FF",     /* Lightest - remains the same for the base */
+                100: "#BAE3FF",    /* Slightly darker, maintaining the base palette's light end */
+                200: "#8CCDFF",    /* Adjusted - a step towards integrating the new primary light color */
+                300: "#5EB7FF",    /* Adjusted - blending towards the mid-point */
+                400: "#30A1FF",    /* Adjusted - further towards the mid-point */
+                500: "#1e789f",    /* New light primary color - adjusted position to reflect its brightness and saturation */
+                600: "#166890",    /* Adjusted - a darker shade to transition smoothly to the darkest */
+                700: "#0F587F",    /* Adjusted - nearing the darkest primary */
+                800: "#0B2E4F",    /* New darkest primary color - as specified */
+                900: "#071d2d"     /* Adjusted - even darker to provide depth, optional if #0B2E4F is to be the darkest */
             },
             gray: {
                 50: "#F5F7FA",

@@ -155,3 +155,4 @@ dist
 *.lock
 *.lockb
 .output
+.DS_Store

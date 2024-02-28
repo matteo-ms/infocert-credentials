@@ -1,7 +1,7 @@
 <template>
   <Html class="" lang="en">
 
-  <Body class="bg-slate-900 text-gray-200 antialiased transition-colors duration-300 font-sans">
+  <Body class="bg-primary-900 text-gray-200 antialiased transition-colors duration-300 font-sans">
     <NuxtLayout class="">
       <NuxtLoadingIndicator />
       <NuxtErrorBoundary>
