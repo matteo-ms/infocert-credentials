@@ -1,9 +1,9 @@
-# FinancialCreditScoring
+# IBAN
 
 ```json
 {
     "@context": ["https://www.w3.org/2023/credentials/v1"],
-    "type": ["VerifiableCredential", "FinancialCreditScoring"],
+    "type": ["VerifiableCredential", "IBAN"],
     "credentialSubject": {
         "accountId": "1234567890",
         "IBAN": "DE99123456789012345678",
@@ -11,9 +11,9 @@
         "birthDate": "1958-08-17",
         "familyName": "DOE",
         "givenName": "JOHN",
-        "id": "identity#FinancialCreditScoring"
+        "id": "identity#IBAN"
     },
-    "id": "identity#FinancialCreditScoring#3add94f4-28ec-42a1-8704-4e4aa51006b4",
+    "id": "identity#IBAN#3add94f4-28ec-42a1-8704-4e4aa51006b4",
     "issued": "2021-08-31T00:00:00Z",
     "issuer": {
         "id": "did:key:z6MkrHKzgsahxBLyNAbLQyB1pcWNYC9GmywiWPgkrvntAZcj",
