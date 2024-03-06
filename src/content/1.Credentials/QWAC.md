@@ -18,12 +18,12 @@
     "issuer": {
         "id": "did:key:z6MkrHKzgsahxBLyNAbLQyB1pcWNYC9GmywiWPgkrvntAZcj",
         "image": {
-            "id": "https://images.squarespace-cdn.com/content/v1/609c0ddf94bcc0278a7cbdb4/1660296169313-K159K9WX8J8PPJE005HV/Walt+Bot_Logo.png?format=100w",
+            "id": "http://142.93.173.112:7101/svg/INFOCERT.svg",
             "type": "Image"
         },
-        "name": "CH Authority",
+        "name": "InfoCert",
         "type": "Profile",
-        "url": "https://images.squarespace-cdn.com/content/v1/609c0ddf94bcc0278a7cbdb4/1660296169313-K159K9WX8J8PPJE005HV/Walt+Bot_Logo.png?format=100w"
+        "url": "http://142.93.173.112:7101/svg/INFOCERT.svg"
     },
     "validFrom": "2021-08-31T00:00:00Z",
     "issuanceDate": "2021-08-31T00:00:00Z"

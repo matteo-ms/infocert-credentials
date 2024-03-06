@@ -16,7 +16,7 @@
             "id": "https://img.freepik.com/premium-photo/swiss-flag-switzerland_469558-1774.jpg",
             "type": "Image"
         },
-        "name": "CH Authority",
+        "name": "InfoCert",
         "type": "Profile",
         "url": "https://img.freepik.com/premium-photo/swiss-flag-switzerland_469558-1774.jpg"
     },
