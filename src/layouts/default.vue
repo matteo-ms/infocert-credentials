@@ -12,13 +12,13 @@
           </div>
         </div>
         <div class="flex flex-row">
-          <nav>
+          <!-- <nav>
             <ul class="hidden lg:flex flex-row gap-5 text-gray-50 font-semibold">
               <NuxtLink v-for="item in headerNavigation" :href="item.url" :key="item.url" target="_blank">
                 {{ item.title }}
               </NuxtLink>
             </ul>
-          </nav>
+          </nav> -->
           <div class="border-l border-slate-800 mx-5"></div>
           <div class="flex flex-row">
             <NuxtLink href="https://github.com/dizme" target="_blank">GitHub</NuxtLink>
