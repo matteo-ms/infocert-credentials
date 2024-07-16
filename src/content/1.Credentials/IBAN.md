@@ -18,12 +18,12 @@
     "issuer": {
         "id": "did:key:z6MkrHKzgsahxBLyNAbLQyB1pcWNYC9GmywiWPgkrvntAZcj",
         "image": {
-            "id": "http://142.93.173.112:7101/svg/INFOCERT.svg",
+            "id": "https://demo-wallet.infocert-labs.eu/svg/INFOCERT.svg",
             "type": "Image"
         },
         "name": "InfoCert",
         "type": "Profile",
-        "url": "http://142.93.173.112:7101/svg/INFOCERT.svg"
+        "url": "https://demo-wallet.infocert-labs.eu/svg/INFOCERT.svg"
     },
     "validFrom": "2021-08-31T00:00:00Z",
     "issuanceDate": "2021-08-31T00:00:00Z"
